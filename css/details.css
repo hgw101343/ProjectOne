@@ -1,0 +1,279 @@
+@charset "UTF-8";
+@import url(base.css);
+.goodsclassification {
+  display: none !important;
+}
+
+.header3left:hover .goodsclassification {
+  display: block !important;
+}
+
+.content {
+  width: 1190px;
+  margin: auto;
+}
+
+#detailsMain {
+  height: 616px;
+}
+#detailsMain .maintop {
+  height: 46px;
+  padding: 12px 0 12px 20px;
+  box-sizing: border-box;
+  line-height: 22px;
+  background: #fff;
+}
+#detailsMain .maintop a {
+  font-size: 14px;
+  color: #666;
+}
+#detailsMain .maintop a:hover {
+  color: red;
+}
+#detailsMain .detailmain {
+  background: #f5f5f5;
+}
+#detailsMain .detailmain .content {
+  background: #fff;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#detailsMain .detailmain .main1 {
+  float: left;
+  background: #fff;
+  margin-right: 50px;
+  /*          ================   放大镜===================*/
+}
+#detailsMain .detailmain .main1 #boxbig {
+  float: left;
+  width: 352px;
+  height: 478px;
+  position: relative;
+}
+#detailsMain .detailmain .main1 .box1,
+#detailsMain .detailmain .main1 .box2 {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+}
+#detailsMain .detailmain .main1 .box2 {
+  top: 0px;
+  left: 380px;
+  overflow: hidden;
+  display: none;
+  border: 1px solid #ccc;
+}
+#detailsMain .detailmain .main1 .box1 {
+  top: 0;
+  left: 0;
+  height: 450px;
+}
+#detailsMain .detailmain .main1 .box1top,
+#detailsMain .detailmain .main1 .box1top > img {
+  width: 350px;
+  height: 350px;
+}
+#detailsMain .detailmain .main1 .box1top {
+  position: relative;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+#detailsMain .detailmain .main1 .box2 > img {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+}
+#detailsMain .detailmain .main1 #smartlist {
+  width: 420px;
+  position: relative;
+  margin-top: 10px;
+}
+#detailsMain .detailmain .main1 #smartlist > img {
+  height: 52px;
+  width: 52px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+}
+#detailsMain .detailmain .main1 #smartlist > img:hover {
+  border: 2px solid red;
+}
+#detailsMain .detailmain .main1 .box3 {
+  position: relative;
+  overflow: hidden;
+}
+#detailsMain .detailmain .main1 .box3 i {
+  position: absolute;
+  top: 0px;
+  line-height: 84px;
+  background: #ccc;
+}
+#detailsMain .detailmain .main1 .kuai {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  background: rgba(0, 0, 150, 0.2);
+  top: 0;
+  left: 0;
+  display: none;
+  cursor: move;
+}
+#detailsMain .detailmain .main2 {
+  float: left;
+  width: 786px;
+}
+#detailsMain .detailmain .main2 .main2left {
+  float: left;
+  width: 490px;
+}
+#detailsMain .detailmain .main2 .main2left h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+#detailsMain .detailmain .main2 .main2left .pricediv {
+  height: 56px;
+  line-height: 56px;
+  background: url(../img/list/price-info_bg.jpg) no-repeat;
+  padding-left: 20px;
+  font-size: 16px;
+  background-size: cover;
+}
+#detailsMain .detailmain .main2 .main2left .pricediv .price {
+  font-size: 26px;
+  color: #ee3e1b;
+  font-weight: 700;
+  margin-left: 10px;
+}
+#detailsMain .detailmain .main2 .main2left .coldiv {
+  height: 46px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px dashed #cbcad0;
+}
+#detailsMain .detailmain .main2 .main2left .coldiv li {
+  float: left;
+  padding-top: 10px;
+}
+#detailsMain .detailmain .main2 .main2left .coldiv li p {
+  border-right: 1px solid #ccc;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+#detailsMain .detailmain .main2 .main2left .coldiv li a {
+  color: #e3393c;
+  margin-left: 10px;
+}
+#detailsMain .detailmain .main2 .main2left .coldiv li:nth-of-type(3) p {
+  border-right: none;
+}
+#detailsMain .detailmain .main2 .main2left .coldiv li:nth-of-type(3) i {
+  width: 75px;
+  height: 14px;
+  display: inline-block;
+  background: url(../img/list/newicon20140417.png);
+  background-position: -124px -239px;
+}
+#detailsMain .detailmain .main2 .main2left .infodiv {
+  padding-top: 20px;
+  border-bottom: 1px dashed #cbcad0;
+}
+#detailsMain .detailmain .main2 .main2left .infodiv li {
+  height: 37px;
+  padding: 8px 0;
+  box-sizing: border-box;
+}
+#detailsMain .detailmain .main2 .main2left .infodiv li span {
+  width: 50px;
+  display: inline-block;
+  color: #666;
+}
+#detailsMain .detailmain .main2 .main2left .numgw {
+  padding-top: 10px;
+}
+#detailsMain .detailmain .main2 .main2left .numgw .gwc {
+  padding-top: 26px;
+}
+#detailsMain .detailmain .main2 .main2left .numgw .gwc i {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 13px;
+  left: 24px;
+}
+#detailsMain .detailmain .main2 .main2left .numgw .gwc a {
+  width: 154px;
+  height: 48px;
+  display: inline-block;
+  position: relative;
+  line-height: 48px;
+  border-radius: 10px;
+  border: 2px solid #ee3e1b;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+#detailsMain .detailmain .main2 .main2left .numgw .gwc a:nth-of-type(1) {
+  margin-right: 30px;
+  background: #e3393c;
+  color: #fff;
+}
+#detailsMain .detailmain .main2 .main2left .numgw .gwc a:nth-of-type(1) i {
+  background: url(../img/list/lijig.png);
+}
+#detailsMain .detailmain .main2 .main2left .numgw .gwc a:nth-of-type(2) {
+  color: #ee3e1b;
+}
+#detailsMain .detailmain .main2 .main2left .numgw .gwc a:nth-of-type(2) i {
+  background: url(../img/list/gou.png);
+}
+#detailsMain .detailmain .main2 .main2left .numgw span {
+  color: #666;
+  margin-right: 20px;
+}
+#detailsMain .detailmain .main2 .main2left .numgw input {
+  width: 30px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #c2c3c4;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+#detailsMain .detailmain .main2 .main2left .numgw input:hover {
+  color: red;
+}
+#detailsMain .detailmain .main2 .main2right {
+  float: right;
+  width: 229px;
+  height: 478px;
+  padding: 0 7px;
+  box-sizing: border-box;
+}
+#detailsMain .detailmain .main2 .main2right .shopName {
+  width: 215px;
+  height: 84px;
+  line-height: 84px;
+  text-align: center;
+  border-top: 2px solid red;
+  border-bottom: 1px solid #ccc;
+}
+#detailsMain .detailmain .main2 .main2right .shopName:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#msg {
+  position: fixed;
+  top: 300px;
+  right: 35px;
+  z-index: 10000;
+  width: 1px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background: #360;
+  display: none;
+}
+
+/*# sourceMappingURL=details.css.map */

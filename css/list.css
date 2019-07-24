@@ -1,0 +1,321 @@
+@import url(base.css);
+@import url(host.css);
+.goodsclassification {
+  display: none !important;
+}
+
+.header3left:hover .goodsclassification {
+  display: block !important;
+}
+
+.main1 {
+  background: #fff;
+  height: 47px;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 12px 0px;
+  border-bottom: 1px solid #dbdbdb;
+  line-height: 22px;
+}
+.main1 a {
+  float: left;
+  margin-right: 15px;
+  color: #000;
+}
+
+.main2 {
+  padding: 16px;
+  position: relative;
+}
+.main2 .main2left {
+  position: absolute;
+  top: 18px;
+  left: 0px;
+  width: 190px;
+  border: 1px solid #ccc;
+}
+.main2 .main2left h2 {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 34px;
+  height: 34px;
+  color: #666;
+}
+.main2 .main2left .footprintbox {
+  overflow: hidden;
+  position: relative;
+  width: 190px;
+  height: 500px;
+}
+.main2 .main2left .footprint {
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  max-height: 500px;
+  right: -17px;
+}
+.main2 .main2left .footprint li {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.main2 .main2left .footprint li img {
+  width: 69px;
+  height: 60px;
+  float: left;
+}
+.main2 .main2left .footprint li p {
+  float: left;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.main2 .main2left .footprint li span {
+  font-size: 12px;
+  color: #cc3333;
+}
+.main2 .main2right {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #f8f9f8;
+  margin-bottom: 20px;
+  margin-left: 176px;
+  width: 1000px;
+}
+.main2 .main2right > ul > li {
+  height: 51px;
+  line-height: 65px;
+}
+.main2 .main2right > ul > li > dl dt {
+  width: 65px;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 12px;
+  color: #373a40;
+  line-height: 51px;
+}
+.main2 .main2right > ul > li > dl dd {
+  float: left;
+  margin-right: 30px;
+  line-height: 26px;
+  font-size: 13px;
+  line-height: 51px;
+}
+.main2 .main2right > ul > li > dl dd a {
+  color: #373a40;
+}
+.main2 .main2right > ul > li > dl dd a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.main2 .main2top {
+  height: 46px;
+  overflow: hidden;
+  border-top: 1px dotted #dbdbdb;
+  border-bottom: 1px dotted #dbdbdb;
+}
+.main2 .main2top dt {
+  font-size: 12px;
+  line-height: 46px;
+  float: left;
+  color: #000004;
+  font-weight: bold;
+  width: 65px;
+  text-align: center;
+  margin-right: 15px;
+}
+.main2 .main2top dd {
+  float: left;
+  line-height: 46px;
+  position: relative;
+}
+.main2 .main2top dd::after {
+  content: "";
+  display: inline-block;
+  border-top: 5px solid #999999;
+  border-left: 4px dashed transparent;
+  border-right: 4px dashed transparent;
+  position: absolute;
+  bottom: 17px;
+  right: 26px;
+}
+.main2 .main2top dd::before {
+  content: "";
+  display: inline-block;
+  border-bottom: 5px solid #999999;
+  border-left: 4px dashed transparent;
+  border-right: 4px dashed transparent;
+  position: absolute;
+  top: 19px;
+  right: 26px;
+}
+.main2 .main2top dd a {
+  font-size: 12px;
+  padding-right: 40px;
+  color: #494e52;
+}
+.main2 #mainlist {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.main2 #mainlist li:nth-of-type(4n) {
+  margin-right: 0px;
+}
+.main2 #mainlist li {
+  margin: 0 14px 10px 0px;
+  width: 218px;
+  height: 318px;
+  padding: 7px;
+  float: left;
+  background: #fff;
+  border: 1px dotted #ddd;
+  position: relative;
+}
+.main2 #mainlist li:hover {
+  border-color: red;
+}
+.main2 #mainlist li:hover .shopName a {
+  text-decoration: underline;
+}
+.main2 #mainlist li:hover .shopName i {
+  display: block;
+}
+.main2 #mainlist li:hover .smartpic {
+  display: block;
+}
+.main2 #mainlist li .bigpic {
+  width: 218px;
+  height: 218px;
+  display: block;
+}
+.main2 #mainlist li p {
+  margin: 10px 0px;
+  height: 20px;
+}
+.main2 #mainlist li p span {
+  float: left;
+  color: red;
+}
+.main2 #mainlist li p em {
+  float: right;
+}
+.main2 #mainlist li p em b {
+  color: #3cbcba;
+}
+.main2 #mainlist li .title {
+  font-size: 14px;
+  color: #333;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 6px;
+}
+.main2 #mainlist li .shopName {
+  height: 20px;
+  margin: 10px 0 10px 6px;
+  position: relative;
+}
+.main2 #mainlist li .shopName a {
+  font-size: 12px;
+}
+.main2 #mainlist li .shopName a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.main2 #mainlist li .shopName i {
+  height: 12px;
+  width: 14px;
+  background-image: url(../img/sy/Himall_web.png);
+  background-repeat: no-repeat;
+  background-position: -1377px -26px;
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  right: 0px;
+  display: none;
+}
+.main2 #mainlist li .smartpic {
+  padding-left: 5px;
+  box-sizing: border-box;
+  position: absolute;
+  display: none;
+  background: #fff;
+  z-index: 999;
+  bottom: -61px;
+  width: 232px;
+  height: 61px;
+  left: -1px;
+  border: 1px dotted red;
+  border-top-color: transparent;
+}
+.main2 #mainlist li .smartpic img {
+  width: 47px;
+  height: 45px;
+}
+
+.page {
+  text-align: center;
+}
+
+.page ul {
+  padding: 0;
+  min-width: 450px;
+  display: inline-block;
+}
+
+.page ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.page ul li {
+  float: left;
+  width: auto;
+  min-width: 32px;
+  height: 30px;
+  line-height: 30px;
+  list-style: none;
+}
+
+.page a {
+  color: #aaa;
+  padding: 0 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+
+.page ul li:first-child a {
+  border-left: 1px solid #ccc;
+}
+
+.page ul li a:hover {
+  background-color: dodgerblue;
+}
+
+.page ul li a:hover {
+  color: white;
+}
+
+.page .disabled a:hover {
+  background-color: white;
+  cursor: not-allowed;
+  color: #aaa;
+}
+
+.page .active a {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/*# sourceMappingURL=list.css.map */

@@ -1,0 +1,195 @@
+@import url(base.css);
+@import url(host.css);
+.content {
+  margin: auto;
+  width: 1190px;
+}
+
+#careHead .header2 {
+  height: 60px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+#careHead .header2 .content {
+  padding-left: 170px;
+}
+#careHead .header2 h1 {
+  width: 200px;
+  height: 60px;
+  background: url(../img/sy/logo.png) no-repeat center center;
+}
+#careHead .careheader {
+  width: 990px;
+  margin: auto;
+}
+#careHead .careheader h2 {
+  font-size: 22px;
+  color: #666;
+  line-height: 24px;
+  height: 24px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#careHead .careheader .qx {
+  width: 100px;
+  text-align: center;
+}
+#careHead .careheader .showcarehead {
+  border-top: 1px solid #ddd;
+  line-height: 35px;
+  height: 35px;
+  background: #eff2f5;
+  font-size: 12px;
+  color: #666;
+}
+#careHead .careheader .showcarehead p {
+  float: left;
+}
+#careHead .careheader .showcarehead .sp {
+  width: 521px;
+  text-align: center;
+}
+#careHead .careheader .showcarehead .scj {
+  width: 129px;
+  text-align: right;
+}
+#careHead .careheader .showcarehead .sl {
+  width: 136px;
+  text-align: center;
+}
+#careHead .careheader .showcarehead .cz {
+  width: 99px;
+  text-align: center;
+}
+#careHead .careheader .showcarefooter {
+  border-top: 1px solid #ddd;
+  height: 49px;
+  background: #eff2f5;
+  font-size: 12px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+#careHead .careheader .showcarefooter #allnum {
+  margin: 0px 5px;
+}
+#careHead .careheader .showcarefooter .qx {
+  line-height: 49px;
+}
+#careHead .careheader .showcarefooter .rm {
+  line-height: 49px;
+}
+#careHead .careheader .showcarefooter > p {
+  float: left;
+}
+#careHead .careheader .showcarefooter .js {
+  float: right;
+}
+#careHead .careheader .showcarefooter .js p {
+  float: left;
+  font-size: 12px;
+  margin-top: 5px;
+}
+#careHead .careheader .showcarefooter .js .checkoutbtn {
+  width: 120px;
+  line-height: 36px;
+  height: 36px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  background: #ff4d50;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 5px 5px 0 20px;
+}
+#careHead .careheader .empty {
+  height: 98px;
+  padding-left: 341px;
+  background: #f3f3f3 url(../img/list/cart-empty-bg.png) no-repeat 250px 22px;
+  display: block;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+#careHead .careheader .empty li {
+  line-height: 26px;
+  font-size: 14px;
+}
+#careHead .careheader .empty li a {
+  color: red;
+  margin: 0 5px;
+}
+#careHead .careheader .showcarebody li {
+  height: 132px;
+}
+#careHead .careheader .showcarebody li p {
+  line-height: 54px;
+  height: 54px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  font-size: 12px;
+}
+#careHead .careheader .showcarebody li .carelist {
+  background: #FDFDF7;
+  box-sizing: border-box;
+  padding-top: 15px;
+  height: 78px;
+}
+#careHead .careheader .showcarebody li .carelist a:hover {
+  color: #e3393c;
+}
+#careHead .careheader .showcarebody li .carelist .caredetails {
+  padding-left: 20px;
+  float: left;
+}
+#careHead .careheader .showcarebody li .carelist .caredetails img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+}
+#careHead .careheader .showcarebody li .carelist .caredetails a {
+  font-size: 12px;
+  vertical-align: top;
+  padding-left: 10px;
+}
+#careHead .careheader .showcarebody li .carelist .caredetailsright {
+  float: right;
+  font-size: 14px;
+}
+#careHead .careheader .showcarebody li .carelist .caredetailsright .price {
+  width: 129px;
+  display: inline-block;
+  text-align: right;
+  color: #e3393c;
+}
+#careHead .careheader .showcarebody li .carelist .caredetailsright a {
+  width: 99px;
+  line-height: 52px;
+  height: 52px;
+  display: inline-block;
+  text-align: center;
+}
+#careHead .careheader .showcarebody li .carelist .caredetailsright .zj {
+  width: 136px;
+  text-align: center;
+  line-height: 52px;
+  display: inline-block;
+}
+#careHead .careheader .showcarebody li .carelist .caredetailsright .zj input[type="button"] {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+#careHead .careheader .showcarebody li .carelist .caredetailsright .zj input[type="button"]:hover {
+  border-color: skyblue;
+}
+#careHead .careheader .showcarebody li .carelist .caredetailsright .zj input[type="text"] {
+  width: 36px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/*# sourceMappingURL=care.css.map */

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车结算</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/host.css">
+    <link rel="stylesheet" href="../css/care.css">
+</head>
+
+<body>
+    <div id="careHead">
+        <div class="header1">
+            <div class="content clearfix">
+                <div class="header1left">
+                    <span>您好，欢迎来到<em>中酒网</em></span>
+                    <a href="../host.html">去首页</a>
+                    <div class="registerbox">
+                        <a id="land1">请登录</a>
+                        <a id="reg">免费注册</a>
+                    </div>
+                </div>
+                <div class="header1right">
+                    <ul>
+                        <li><a>我的中酒网</a>
+                            <ol>
+                                <li><a href="###">已买到的商品</a></li>
+                                <li><a href="###">我关注的商品</a></li>
+                                <li><a href="###">我关注的店铺</a></li>
+                            </ol>
+                        </li>
+                        <li><a class="gwc">购物车 <em>0</em>件</a></li>
+                        <li><a>微信端</a>
+                            <div class="wxd">
+
+                            </div>
+                        </li>
+                        <li><a href="###">APP</a>
+                            <div class="app">
+                                <img src="img/sy/mob.jpg" alt="">
+                                <h3>扫描二维码</h3>
+                                <p>下载手机客户端</p>
+                            </div>
+                        </li>
+                        <li><a href="###">卖家中心</a></li>
+                        <li><a href="###">订购热线：400-798-9999</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header2">
+            <div class="content">
+                <a>
+                    <h1></h1>
+                </a>
+            </div>
+        </div>
+        <div class="careheader">
+            <h2>我的购物车</h2>
+            <div class="showcare">
+                <div class="showcarehead">
+                    <p class="qx" id="qx1"><input type="checkbox">&nbsp;&nbsp;全选</p>
+                    <p class="sp">商品</p>
+                    <p class="scj">商城价</p>
+                    <p class="sl">数量</p>
+                    <p class="cz">操作</p>
+                </div>
+                <ul class="empty" id="empty">
+                    <li>购物车内暂时没有商品<a class="Land" id="careLand">登录</a>后，将显示您之前加入的商品</li>
+                    <li><a class="tohost">去首页</a>挑选喜欢的商品</li>
+                </ul>
+                <ul class="showcarebody" id="showcarebody">
+                    <!-- <li>
+                        <p><input type="checkbox"><span>中酒自营</span></p>
+                        <div class="carelist">
+                            <div class="caredetails">
+                                <input type="checkbox" name="good">
+                                <img src="../img/list/1.png" alt="">
+                                <a>52°小糊涂仙500ml</a>
+                            </div>
+                            <div class="caredetailsright">
+                                <a class="price">￥270.00</a>
+                                <div class="zj">
+                                    <input type="button" value="-">
+                                    <input type="text" value="1" class="nownum">
+                                    <input type="button" value="+">
+                                </div>
+                                <a>删除</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <p><input type="checkbox"><span>中酒自营</span></p>
+                        <div class="carelist">
+                            <div class="caredetails">
+                                <input type="checkbox" name="good">
+                                <img src="../img/list/1.png" alt="">
+                                <a>52°小糊涂仙500ml</a>
+                            </div>
+                            <div class="caredetailsright">
+                                <a class="price">￥270.00</a>
+                                <div class="zj">
+                                    <input type="button" value="-">
+                                    <input type="text" value="1" class="nownum">
+                                    <input type="button" value="+">
+                                </div>
+                                <a>删除</a>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+                <div class="showcarefooter">
+                    <!-- <p class="qx" id="qx2"><input type="checkbox">&nbsp;&nbsp;全选</p> -->
+                    <a id='dels' class="rm">删除</a>
+                    <span><i class="num" id="allnum">1</i></span>
+                    <div class="js">
+                        <p>总计（不含运费）：<span class="prices" id="prices">270.00</span></p>
+                        <a class="checkoutbtn">去结算</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/care.js"></script>
+
+</html>

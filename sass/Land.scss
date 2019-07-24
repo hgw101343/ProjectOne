@@ -1,0 +1,181 @@
+@charset "utf-8";
+@import "base.css";
+.content{
+    width: 965px;
+    margin: auto;
+}
+body{
+    background: #f2f2f2;
+}
+.header{
+    height: 80px;
+    a{
+        margin: 21px 0px;
+        float: left;
+        img{
+            width: 295px;
+            height: 38px;
+        }
+    }
+    b{
+        font-size: 18px;
+        line-height: 80px;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+}
+.main{
+    background: #e33938;
+    height: 470px;
+    .mainLeft{
+        float: left;
+        width: 402px;
+        height: 388px;
+        margin-top: 60px;
+        background: url(../img/Land/loginBannerImg.png) no-repeat center center;
+    }
+    .mainRight{
+        float: right;
+        width: 344px;
+        height: 430px;
+        margin-top: 20px;  
+        background: #fff;
+        position: relative;
+        .tabti{
+            border-bottom: 1px solid rgba(233,233,233,0.60);
+            display: flex;
+            justify-content: space-between;
+            line-height: 54px;
+            font-size: 18px;
+            .active{
+                font-weight: bold;
+                color: #e54b54
+            }
+            li{
+                flex: 1;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+        .tabmain1{
+            width: 344px;
+            height: 230px;
+            &>div{
+                text-align: center;
+                img:first-of-type{
+                    margin-top: 20px;
+                    width: 159px;
+                    height: 159px;
+                    border: 1px solid #f1f1f1;
+                }
+                p{
+                    span{
+                        font-size: 12px;
+                        line-height: 45px;
+                        margin-right: 10px;
+                        color: #aaaaaa;
+                    }
+                }
+                img:nth-of-type(2){
+                    height: 25px;
+                }
+            }
+        }
+        .tabmain2{
+            padding: 26px 28px;
+            box-sizing: border-box;
+            display: none;
+            .username{
+                width: 288px;
+                height: 40px;
+                position: relative;
+                border: 1px solid #e9e9e9;
+                i{  
+                    width: 39px;
+                    height: 38px;
+                    position: absolute;
+                    background: url(../img/Land/icon-user.png) no-repeat center center;
+                    background-size: 16px 16px;
+                    top: 0px;
+                    left: 0px;
+                    border-right: 1px solid #e9e9e9;
+                }
+                input{
+                    margin-left: 39px;
+                    margin-top: 13px;
+                    padding-left: 5px;
+                    box-sizing: border-box;
+                }
+            }
+            .psw{
+                margin-top: 16px;
+                i{
+                    background: url(../img/Land/icon-lock.png) no-repeat center center;
+                    background-size: 16px 16px;
+                }
+            }
+            .Landbtn{
+                background-image: linear-gradient(-180deg, #ff2f2d 0%, #e33938 100%);
+                border-radius: 4px;
+                width: 287px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 16px;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 26px;
+            }
+            p{
+                width: 287px;
+                margin-top: 16px; 
+                display: flex;
+                justify-content: space-between;
+                font-size: 12px;
+            }
+        }
+    }
+}
+.tabfooter{
+    font-size: 12px;
+    color: #1f1f1f;
+    position: absolute;
+    bottom: 24px;
+    left: 40px;
+    span{
+        float: left;
+        font-size: 12px;
+        margin: 0 5px;
+    }
+    a{
+        cursor: pointer;
+    }
+    a:nth-of-type(-n+3){
+        float: left;
+        padding: 0px 0px 0px 25px;
+        box-sizing: border-box;
+        margin-right: 5px;
+        background-image: url(../img/Land/icon-qq.png);
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
+    }
+    a:nth-of-type(n+2){
+        color: red;
+    }
+    a:nth-of-type(2){
+        background-repeat: no-repeat;
+        background-image: url(../img/Land/icon-weibo.png);
+    }
+    a:nth-of-type(3){
+        background-repeat: no-repeat;
+        background-image: url(../img/Land/icon-weixin.png);
+    }
+
+}
+.footer{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 12px;
+    p{
+        margin-top: 10px;
+    }
+}
